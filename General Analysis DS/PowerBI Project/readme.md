@@ -1,4 +1,3 @@
-#### Project Objective
 
 ### Introduction
 Welcome to my Power BI project, part of my professional portfolio, designed to demonstrate advanced data analysis and visualization skills within a real-world business scenario. This project highlights the strategic use of inventory data to drive decision-making processes, optimized resource allocation, and improved operational efficiencies.
