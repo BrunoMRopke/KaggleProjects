@@ -8,17 +8,23 @@ This project serves as a practical simulation of data analysis expectations and 
 The data used in this dashboard is sourced from Kaggle, a well-known platform in the fields of analysis and data science. Kaggle is extensively used by professionals for accessing free datasets and for sharing solutions and insights in data science.
 Data Source used in this project: https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data
 
-## Step 2: Storing the Data in Google Colab
-##Objective: Simulate an environment that mimics querying from the original database to minimize future performance issues for users.
-##Action: Upload the downloaded dataset to Google Colab. This step simulates storing the file in an environment that's closer to a database, reducing the load on Power BI during data retrieval and analysis, thus mimicking a more efficient data querying process typical ##in professional settings.
+## Step 2: Preprocessing Data with Google Cloud Storage and Google BigQuery
+Google Cloud Storage and Google BigQuery were chosen for their robustness and capability to handle large datasets efficiently. These platforms not only ensure high performance and scalability but also offer seamless integration that facilitates smooth data workflows, greatly minimizing complexities in data transfer. Particularly, Google BigQuery stands out by allowing the creation of new views, enabling precise data manipulation and selection of specific datasets needed for analysis. This feature is crucial for tailoring data processing to meet exact analytical requirements, enhancing the overall efficiency and effectiveness of our data operations. This strategic choice supports our goal to maintain a scalable, high-performance, and streamlined data environment to meet and exceed stakeholder expectations.
+![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/61d527a5-b640-4971-b031-71be0567da77)
 
-## Step 3: Preparing the Data and Creating Dimension Tables with Python and SQL
+
+## Step 3: Utilizing Google Cloud Storage and Google BigQuery
 Objective: Ensure the dataset is ready for analysis and alleviate resources when executing queries in the tool.
 Action: Within Google Colab, utilize Python and SQL commands to perform initial formatting of the dataset and generate dimension tables. This process involves:
 Analyzing the dataset to identify potential dimension tables.
 Using Python for data manipulation tasks, such as filtering, cleaning, and structuring data.
 Employing SQL queries to further refine and create dimension tables, which will be used in Power BI for more efficient querying.
 The alternation between Python and SQL commands serves not only to optimize the data for analysis but also as an educational exercise to understand different approaches to data manipulation and preparation.
+### SQL Query Views
+This BigQuery SQL query is executed to enhance the sales data with geographic information, making it more informative and useful for analysis in Power BI. The step ensures that when the data is imported into Power BI, it already includes matched city names, district names, and state names by postal code, which facilitates a more nuanced geographic analysis and reporting within the dashboard. The use of a view allows for dynamic and efficient data retrieval, providing up-to-date geographic matching without the need for data replication or additional storage. The approach taken here aligns with best practices for data management by offloading data processing to BigQuery, leveraging its powerful infrastructure to handle complex queries, which improves the performance and responsiveness of the Power BI dashboard.
+![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/15e35b7b-3007-4154-a3a4-d096ffce2fc2)
+
+### Python Queries
 
 ## Step 4: Loading the Data into Power BI Using QuickQuery and Direct Import
 Objective: Import the dataset and dimension tables into Power BI for analysis.
