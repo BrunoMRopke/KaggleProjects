@@ -1,17 +1,17 @@
-Introduction
+### Introduction
 This project serves as a practical simulation of data analysis expectations and outcomes within a professional environment, grounded in personal study and experience in the field of data analysis. The dataset analyzed, which is 67MB in size and sourced from the Kaggle platform, was chosen to deepen understanding of the Power BI platform's capabilities. All analyses conducted as part of this project were purely for educational purposes, aiming to replicate the kind of insights and challenges one might encounter in a real-world data analysis scenario.
 
-##Step-by-Step Guide
+## Step-by-Step Guide
 ##Step 1: Sourcing the Data
 ##Objective: Obtain the dataset from Kaggle.
 ##https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data
 Action: Navigate to the Kaggle website, search for the specific dataset (67MB in size), and download it to your local machine.
 
-##Step 2: Storing the Data in Google Colab
+## Step 2: Storing the Data in Google Colab
 ##Objective: Simulate an environment that mimics querying from the original database to minimize future performance issues for users.
 ##Action: Upload the downloaded dataset to Google Colab. This step simulates storing the file in an environment that's closer to a database, reducing the load on Power BI during data retrieval and analysis, thus mimicking a more efficient data querying process typical ##in professional settings.
 
-Step 3: Preparing the Data and Creating Dimension Tables with Python and SQL
+## Step 3: Preparing the Data and Creating Dimension Tables with Python and SQL
 Objective: Ensure the dataset is ready for analysis and alleviate resources when executing queries in the tool.
 Action: Within Google Colab, utilize Python and SQL commands to perform initial formatting of the dataset and generate dimension tables. This process involves:
 Analyzing the dataset to identify potential dimension tables.
@@ -19,13 +19,13 @@ Using Python for data manipulation tasks, such as filtering, cleaning, and struc
 Employing SQL queries to further refine and create dimension tables, which will be used in Power BI for more efficient querying.
 The alternation between Python and SQL commands serves not only to optimize the data for analysis but also as an educational exercise to understand different approaches to data manipulation and preparation.
 
-Step 4: Loading the Data into Power BI Using QuickQuery and Direct Import
+## Step 4: Loading the Data into Power BI Using QuickQuery and Direct Import
 Objective: Import the dataset and dimension tables into Power BI for analysis.
 Action:
 For the sales environment reports, to maintain efficient updates, select the QuickQuery mode when importing the main dataset. This method ensures timely updates by fetching data as needed, reducing the load and maintaining performance.
 Import the other dimensional tables directly into Power BI. This allows for a comprehensive data model that supports in-depth analysis while ensuring that the most critical dataset for operational reporting remains efficiently updatable.
 
-Step 5: Applying Queries for Data Preparation and Cleaning
+## Step 5: Applying Queries for Data Preparation and Cleaning
 Objective: Optimize and clean the data for analysis.
 Action: After loading the data into Power BI, apply Power Query Editor to perform data preparation and cleaning tasks. This includes:
 Removing unnecessary columns to streamline the dataset.
@@ -34,17 +34,17 @@ Transforming data types for accurate analysis (e.g., converting string dates to 
 Creating calculated columns if necessary to enhance the data model for more in-depth analysis.
 These steps are crucial for ensuring the data is in the best possible shape for creating meaningful visualizations and extracting reliable insights.
 
-Step 6: Creating Visualizations and Developing the Relational Model
+## Step 6: Creating Visualizations and Developing the Relational Model
 Objective: Develop visual representations of your data and construct a relational model to uncover insights.
 Action:
 Developing the Relational Model: Before diving into visualization, focus on defining the relational entities among the tables. This involves establishing clear relationships between your main dataset and the dimension tables, including the ones created in previous steps. Utilize Power BI's data modeling tools to accurately represent these relationships, ensuring a robust foundation for analysis.
 
-Creating a Date Reference Table: Recognizing the importance of date-based analysis in this project, create a dedicated Date table. This table is generated based on the historical date range present within the dataset and is designed to support future calculations, such as time-based trends and comparative analysis over different periods. The Date table becomes a central piece in the relational model, linking to other tables where date fields are relevant.
+# Creating a Date Reference Table: Recognizing the importance of date-based analysis in this project, create a dedicated Date table. This table is generated based on the historical date range present within the dataset and is designed to support future calculations, such as time-based trends and comparative analysis over different periods. The Date table becomes a central piece in the relational model, linking to other tables where date fields are relevant.
 
-Visualization: With the relational model set, including the Date table, proceed to utilize Power BI’s visualization tools. Create charts, graphs, and maps that highlight the data’s patterns, trends, and anomalies. The established relational model allows for dynamic and complex analyses, facilitated by the comprehensive Date table. Experiment with different visualization types to best convey the story behind the data, taking advantage of the relational model to explore various angles and depths of analysis.
+# Visualization: With the relational model set, including the Date table, proceed to utilize Power BI’s visualization tools. Create charts, graphs, and maps that highlight the data’s patterns, trends, and anomalies. The established relational model allows for dynamic and complex analyses, facilitated by the comprehensive Date table. Experiment with different visualization types to best convey the story behind the data, taking advantage of the relational model to explore various angles and depths of analysis.
 
 
-Step 7: Analyzing the Data and Implementing Access Control
+## Step 7: Analyzing the Data and Implementing Access Control
 Objective: Extract meaningful insights from the data and ensure secure access to the information.
 Action:
 Data Analysis: With the visualizations and relational model in place, delve into the data to identify trends, patterns, and outliers. Use the dynamic capabilities of your visualizations to explore different facets of the data, guided by the relational structures and the Date reference table. This step is crucial for extracting actionable insights that can inform decision-making processes.
