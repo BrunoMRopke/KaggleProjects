@@ -1,11 +1,12 @@
-### Introduction
+# Introduction
 This project serves as a practical simulation of data analysis expectations and outcomes within a professional environment, grounded in personal study and experience in the field of data analysis. The dataset analyzed, which is 67MB in size and sourced from the Kaggle platform, was chosen to deepen understanding of the Power BI platform's capabilities. All analyses conducted as part of this project were purely for educational purposes, aiming to replicate the kind of insights and challenges one might encounter in a real-world data analysis scenario.
 
-## Step-by-Step Guide
-##Step 1: Sourcing the Data
-##Objective: Obtain the dataset from Kaggle.
-##https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data
-Action: Navigate to the Kaggle website, search for the specific dataset (67MB in size), and download it to your local machine.
+# Step-by-Step Guide
+
+##  Step 1: Sourcing the Data
+###  Obtaing the dataset from Kaggle.
+The data used in this dashboard is sourced from Kaggle, a well-known platform in the fields of analysis and data science. Kaggle is extensively used by professionals for accessing free datasets and for sharing solutions and insights in data science.
+Data Source used in this project: https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data
 
 ## Step 2: Storing the Data in Google Colab
 ##Objective: Simulate an environment that mimics querying from the original database to minimize future performance issues for users.
