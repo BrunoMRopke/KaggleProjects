@@ -49,7 +49,7 @@ Recognizing the importance of date-based analysis in this project, create a dedi
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/5a34be12-efa8-4f8c-bc47-173d5f773880)
 
 
-# Visualization: With the relational model set, including the Date table, proceed to utilize Power BI’s visualization tools. Create charts, graphs, and maps that highlight the data’s patterns, trends, and anomalies. The established relational model allows for dynamic and complex analyses, facilitated by the comprehensive Date table. Experiment with different visualization types to best convey the story behind the data, taking advantage of the relational model to explore various angles and depths of analysis.
+#### Visualization: With the relational model set, including the Date table, proceed to utilize Power BI’s visualization tools. Create charts, graphs, and maps that highlight the data’s patterns, trends, and anomalies. The established relational model allows for dynamic and complex analyses, facilitated by the comprehensive Date table. Experiment with different visualization types to best convey the story behind the data, taking advantage of the relational model to explore various angles and depths of analysis.
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/bf4283f5-a5c5-4054-b722-278d3ca1bbba)
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/f0383cef-b9af-4f96-a52f-75949b876659)
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/9b7eb8f6-56bb-4fbb-a6a5-d5ef2cd6fea1)
