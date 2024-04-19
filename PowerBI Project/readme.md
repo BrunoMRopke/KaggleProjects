@@ -29,6 +29,7 @@ Google BigQuery's integration with Python Notebooks stands as a robust feature, 
 
 ## Step 4: Loading the Data into Power BI Using QuickQuery or Direct Import
 With the views prepared and optimized in Google Big Query, the datasets were directly imported into Power BI Desktop. This approach was chosen because it does not impact the data update routines or compromise access security. Direct import ensures that the dashboard developed in Power BI remains both dynamic and secure, supporting interactive visualization and in-depth analysis of the data without disrupting ongoing data management practices.
+![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/976fc54f-37a6-4e5c-97b9-502fb3e26b85)
 
 ## Step 5: Data Preparation and Cleaning
 Objective: Optimize and clean the data for analysis.
