@@ -49,17 +49,13 @@ Recognizing the importance of date-based analysis in this project, create a dedi
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/5a34be12-efa8-4f8c-bc47-173d5f773880)
 
 
-#### Visualization: With the relational model set, including the Date table, proceed to utilize Power BI’s visualization tools. Create charts, graphs, and maps that highlight the data’s patterns, trends, and anomalies. The established relational model allows for dynamic and complex analyses, facilitated by the comprehensive Date table. Experiment with different visualization types to best convey the story behind the data, taking advantage of the relational model to explore various angles and depths of analysis.
+Visualization: With the relational model set, including the Date table, proceed to utilize Power BI’s visualization tools. Create charts, graphs, and tables that highlight the data’s patterns, trends, and anomalies. The established relational model allows for dynamic and complex analyses, facilitated by the comprehensive Date table. Experiment with different visualization types to best convey the story behind the data, taking advantage of the relational model to explore various angles and depths of analysis.
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/bf4283f5-a5c5-4054-b722-278d3ca1bbba)
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/f0383cef-b9af-4f96-a52f-75949b876659)
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/9b7eb8f6-56bb-4fbb-a6a5-d5ef2cd6fea1)
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/83537075-a41e-493d-a0db-addfea05ef5b)
 
 ## Step 7: Analyzing the Data and Implementing Access Control
-Objective: Extract meaningful insights from the data and ensure secure access to the information.
-Action:
-Data Analysis: With the visualizations and relational model in place, delve into the data to identify trends, patterns, and outliers. Use the dynamic capabilities of your visualizations to explore different facets of the data, guided by the relational structures and the Date reference table. This step is crucial for extracting actionable insights that can inform decision-making processes.
-
 Implementing Access Control: After completing the visual representations and analysis, the next step involves securing the access to these insights. Utilize the workspace environment in Microsoft 365 to create specific roles that define access levels to the Power BI reports and dashboards. These roles can be tailored to match the organization’s hierarchy or project team structure, ensuring that sensitive information is only accessible to authorized users. Follow these sub-steps to implement access control:
 
 Navigate to the workspace settings in your MS365 Power BI environment.
