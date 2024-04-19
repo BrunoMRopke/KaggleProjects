@@ -25,14 +25,12 @@ This BigQuery SQL query is executed to enhance the sales data with geographic in
 ![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/15e35b7b-3007-4154-a3a4-d096ffce2fc2)
 
 ### Python Queries
+Google BigQuery's integration with Python Notebooks stands as a robust feature, enabling data analysts and scientists to perform complex data manipulations and apply machine learning models directly within the database environment. This capability allows for the execution of advanced analytical computations and machine learning processes on large datasets before they are loaded into visualization tools like Power BI, Looker, and others.
 
-## Step 4: Loading the Data into Power BI Using QuickQuery and Direct Import
-Objective: Import the dataset and dimension tables into Power BI for analysis.
-Action:
-For the sales environment reports, to maintain efficient updates, select the QuickQuery mode when importing the main dataset. This method ensures timely updates by fetching data as needed, reducing the load and maintaining performance.
-Import the other dimensional tables directly into Power BI. This allows for a comprehensive data model that supports in-depth analysis while ensuring that the most critical dataset for operational reporting remains efficiently updatable.
+## Step 4: Loading the Data into Power BI Using QuickQuery or Direct Import
+With the views prepared and optimized in Google Big Query, the datasets were directly imported into Power BI Desktop. This approach was chosen because it does not impact the data update routines or compromise access security. Direct import ensures that the dashboard developed in Power BI remains both dynamic and secure, supporting interactive visualization and in-depth analysis of the data without disrupting ongoing data management practices.
 
-## Step 5: Applying Queries for Data Preparation and Cleaning
+## Step 5: Data Preparation and Cleaning
 Objective: Optimize and clean the data for analysis.
 Action: After loading the data into Power BI, apply Power Query Editor to perform data preparation and cleaning tasks. This includes:
 Removing unnecessary columns to streamline the dataset.
@@ -41,15 +39,21 @@ Transforming data types for accurate analysis (e.g., converting string dates to 
 Creating calculated columns if necessary to enhance the data model for more in-depth analysis.
 These steps are crucial for ensuring the data is in the best possible shape for creating meaningful visualizations and extracting reliable insights.
 
-## Step 6: Creating Visualizations and Developing the Relational Model
+## Step 6: Developing the Relational Model and Creating Visualizations  
 Objective: Develop visual representations of your data and construct a relational model to uncover insights.
 Action:
 Developing the Relational Model: Before diving into visualization, focus on defining the relational entities among the tables. This involves establishing clear relationships between your main dataset and the dimension tables, including the ones created in previous steps. Utilize Power BI's data modeling tools to accurately represent these relationships, ensuring a robust foundation for analysis.
 
-# Creating a Date Reference Table: Recognizing the importance of date-based analysis in this project, create a dedicated Date table. This table is generated based on the historical date range present within the dataset and is designed to support future calculations, such as time-based trends and comparative analysis over different periods. The Date table becomes a central piece in the relational model, linking to other tables where date fields are relevant.
+### Creating a Date Reference Table:
+Recognizing the importance of date-based analysis in this project, create a dedicated Date table. This table is generated based on the historical date range present within the dataset and is designed to support future calculations, such as time-based trends and comparative analysis over different periods. The Date table becomes a central piece in the relational model, linking to other tables where date fields are relevant.
+![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/5a34be12-efa8-4f8c-bc47-173d5f773880)
+
 
 # Visualization: With the relational model set, including the Date table, proceed to utilize Power BI’s visualization tools. Create charts, graphs, and maps that highlight the data’s patterns, trends, and anomalies. The established relational model allows for dynamic and complex analyses, facilitated by the comprehensive Date table. Experiment with different visualization types to best convey the story behind the data, taking advantage of the relational model to explore various angles and depths of analysis.
-
+![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/bf4283f5-a5c5-4054-b722-278d3ca1bbba)
+![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/f0383cef-b9af-4f96-a52f-75949b876659)
+![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/9b7eb8f6-56bb-4fbb-a6a5-d5ef2cd6fea1)
+![image](https://github.com/BrunoMRopke/MyProjects/assets/38227297/83537075-a41e-493d-a0db-addfea05ef5b)
 
 ## Step 7: Analyzing the Data and Implementing Access Control
 Objective: Extract meaningful insights from the data and ensure secure access to the information.
