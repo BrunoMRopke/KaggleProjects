@@ -65,5 +65,5 @@ Within the workspace, go to the "Access" tab and start defining roles. These cou
 Assign users to these roles based on their need to access the data and the level of interaction they require with the reports and dashboards.
 By controlling access through roles and workspace settings, you ensure that data insights are shared responsibly within the organization, aligning with data governance policies and protecting sensitive information.
 
-Conclusion
+## Conclusion
 By simulating the analytical expectations and outcomes of a professional environment, this project not only enhances understanding of the Power BI platform but also prepares one for the dynamic challenges and opportunities in the field of data analysis. The experience gained from analyzing real-world datasets, like the one from Kaggle, and translating these analyses into actionable insights, is invaluable for anyone looking to advance in the field of data science and analytics.
