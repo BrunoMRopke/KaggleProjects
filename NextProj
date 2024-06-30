@@ -1,0 +1,22 @@
+##Connection with MT5
+Establishes a connection with the MT5 server to retrieve historical price data for currency pairs.
+
+Data Retrieval
+Obtains historical price data for various currency pairs such as USDJPY, GBPUSD, AUDUSD, EURUSD, USDCAD, and USDCHF.
+
+Data Cleaning
+Removes unnecessary columns from DataFrames, such as 'spread' and 'real_volume'.
+
+Calculation of Technical Indicators
+RSI (Relative Strength Index): Calculates the RSI for each currency pair.
+EMAs (Exponential Moving Averages): Calculates 5, 20, and 50 period EMAs for each currency pair.
+Daily Closing Difference: Calculates the difference between the current closing value and the previous day's closing value.
+4-Hour Gain Sum: Calculates the sum of closing values for the last 4 hours.
+Bollinger Bands: Calculates the upper and lower Bollinger Bands, along with the 20-period simple moving average and standard deviation.
+Indicator Strategies
+Implements trading strategies based on technical indicators, such as the mean reversion strategy.
+
+DataFrame Formatting
+Rounds numerical values to 5 decimal places and formats the DataFrames according to their values.
+
+Additionally, the code includes functions to plot charts and handle DataFrames, ensuring that the data is in the correct format for analysis.
